@@ -1,6 +1,9 @@
 # foodpulse-infra
 infa Podman, Kafka, Redis, MongoDB
 
+Local host ports are registered in `../implementation/SERVICE_PORTS.md`. Kafka UI
+uses `http://localhost:18080`; port `8080` is reserved for `foodpulse-proxy`.
+
 ## Redis commands
 
 Use the infrastructure helper from this repository:
