@@ -69,7 +69,7 @@ services:
     image: ghcr.io/kafbat/kafka-ui:v1.5.0
     container_name: foodpulse-kafka-ui
     ports:
-      - "8080:8080"
+      - "18080:8080"
     environment:
       KAFKA_CLUSTERS_0_NAME: foodpulse-local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
